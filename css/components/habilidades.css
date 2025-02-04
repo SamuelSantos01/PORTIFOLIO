@@ -1,0 +1,49 @@
+.habilidades__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habilidades__container h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 2rem 0 1rem;
+}
+
+.box__logo {
+    padding: 3rem;
+}
+
+.box__logo ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.card {
+    width: 10rem;  
+    height: 12rem; 
+    padding: 1rem;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.1);
+    background-color: var(--light-tertiary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    overflow: hidden; 
+}
+
+.card p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 300;
+}
+
+.card img {
+    width: 80%; 
+    max-height: 60%;
+    object-fit: contain;
+}
+
